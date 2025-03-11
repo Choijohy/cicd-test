@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: quartet-server-repository   # set this to your Amazon ECR repository name
-  ECS_SERVICE: quartet-server-definition:1  # set this to your Amazon ECS service name
+  ECS_SERVICE: quartet-server-service-develop   # set this to your Amazon ECS service name
   ECS_CLUSTER: QuartetServerCluster           # set this to your Amazon ECS cluster name
   CONTAINER_NAME: quartet-server-container-develop  # set this to the name of the container in the
                                            
